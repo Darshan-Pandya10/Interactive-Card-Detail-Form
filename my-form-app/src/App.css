@@ -63,7 +63,7 @@ form{
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  /* margin-right: 15rem; */
+  margin-right: 15rem;
   padding: 1rem;
 }
 
@@ -116,4 +116,44 @@ input:hover{
   position: absolute;
   margin-left: 2.1rem;
   right: 2rem;
+}
+
+.submit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15rem;
+  padding: 1rem;
+}
+
+.img {
+  width: 4.5rem;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  background: #8E2DE2;
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+.submit h1{
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.submit h4{
+  color: rgb(173, 173, 173);
+}
+
+.ctn-btn{
+  width: 20rem;
+}
+
+.display-number{
+  display: flex;
+}
+
+.display-number p{
+  margin: 0 0.4rem;
 }
